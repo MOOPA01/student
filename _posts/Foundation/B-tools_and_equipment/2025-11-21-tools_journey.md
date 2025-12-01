@@ -6,7 +6,7 @@ description: Journey with development tools -- GitHub, Cloning, Virtual Environm
 permalink: /tools/journey
 ---
 
-## Visual Journey
+## Tools Journey
 
 Linux is the most compatible OS for Developers.  
 
