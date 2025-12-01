@@ -117,6 +117,6 @@ Everything for me, as for many others, revolves around family.
 Gallery of Pictures( Couldn't find a picture of me or my family)
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/cat.jpg" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/dog.jpg" alt="Image 2">
+  <img src="{{site.baseurl}}/images/webdev/cat.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/webdev/dog.jpg" alt="Image 2">
 </div>
