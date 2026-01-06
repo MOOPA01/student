@@ -106,7 +106,6 @@ Flags sourced from Wikipedia images
     const visited_places = [
         {"flag": "f/fc/Valorant_logo_-_pink_color_version.svg", "description": "Valorant"},
         {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica"}
-        {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica"}
     ];
 
     if (container2) {
