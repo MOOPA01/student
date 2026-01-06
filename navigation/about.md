@@ -94,7 +94,7 @@ Flags sourced from Wikipedia images
     }
 </script>
 
-<h2>Other Places</h2>
+<h2>Favorite Games</h2>
 <div class="grid-container" id="grid_container2">
     <!-- second grid content will be added here by JavaScript -->
 </div>
@@ -104,8 +104,9 @@ Flags sourced from Wikipedia images
     let container2 = document.getElementById("grid_container2");
     const http_source2 = "https://upload.wikimedia.org/wikipedia/commons/";
     const visited_places = [
-        {"flag": "a/a4/Flag_of_the_United_States.svg", "greeting": "Visited", "description": "United States"},
-        {"flag": "c/c3/Flag_of_France.svg", "greeting": "Vacationed", "description": "France"}
+        {"flag": "f/fc/Valorant_logo_-_pink_color_version.svg", "description": "Valorant"},
+        {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica"}
+        {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica"}
     ];
 
     if (container2) {
