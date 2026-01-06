@@ -64,6 +64,12 @@ Flags sourced from Wikipedia images
         {"flag": "0/09/Flag_of_South_Korea.svg", "greeting": "Korean", "description": "South Korea"}
     ];
 
+    var container2 = document.getElementById("grid_container2");
+    var visited_places = [
+        {"flag": "a/a4/Flag_of_the_United_States.svg", "greeting": "Visited", "description": "United States"},
+        {"flag": "c/c3/Flag_of_France.svg", "greeting": "Vacationed", "description": "France"}
+    ];
+    
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
 
@@ -92,6 +98,22 @@ Flags sourced from Wikipedia images
 
         // Append the grid item DIV to the container DIV
         container.appendChild(gridItem);
+    }
+
+    for (const place of visited_places) {
+        var gridItem = document.createElement("div");
+        gridItem.className = "grid-item";
+        var img = document.createElement("img");
+        img.src = http_source + place.flag;
+        img.alt = place.description + " Flag";
+        var description = document.createElement("p");
+        description.textContent = place.description;
+        var greeting = document.createElement("p");
+        greeting.textContent = place.greeting;
+        gridItem.appendChild(img);
+        gridItem.appendChild(description);
+        gridItem.appendChild(greeting);
+        container2.appendChild(gridItem);
     }
 </script>
 
