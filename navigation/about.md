@@ -107,7 +107,7 @@ Flags sourced from Wikipedia images
         {"flag": "f/fc/Valorant_logo_-_pink_color_version.svg", "description": "Valorant"},
         {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica"},
         {"flag": "0/08/Hollow_Knight_Silksong_Logo.svg","description": "Hollow Knight"},
-        {"flag": "a/af/Minecraft_key-art_"useless"_version.png","description": "Minecraft"}
+        {"flag": "6/6a/Minecraft_Trails_and_Tales_Art.png","description": "Minecraft"}
     ];
 
     if (container2) {
