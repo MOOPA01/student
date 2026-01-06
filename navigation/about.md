@@ -105,7 +105,9 @@ Flags sourced from Wikipedia images
     const http_source2 = "https://upload.wikimedia.org/wikipedia/commons/";
     const visited_places = [
         {"flag": "f/fc/Valorant_logo_-_pink_color_version.svg", "description": "Valorant"},
-        {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica"}
+        {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica"},
+        {"flag": "0/08/Hollow_Knight_Silksong_Logo.svg","description": "Hollow Knight"},
+        {"flag": "a/af/Minecraft_key-art_"useless"_version.png","description": "Minecraft"}
     ];
 
     if (container2) {
@@ -121,7 +123,6 @@ Flags sourced from Wikipedia images
             greeting.textContent = place.greeting;
             gridItem.appendChild(img);
             gridItem.appendChild(description);
-            gridItem.appendChild(greeting);
             container2.appendChild(gridItem);
         }
     }
