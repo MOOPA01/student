@@ -104,10 +104,10 @@ Flags sourced from Wikipedia images
     let container2 = document.getElementById("grid_container2");
     const http_source2 = "https://upload.wikimedia.org/wikipedia/commons/";
     const visited_places = [
-        {"flag": "f/fc/Valorant_logo_-_pink_color_version.svg", "description": "Valorant"},
-        {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica"},
-        {"flag": "f/fd/Geometry_Dash.svg","description": "Geometry Dash"},
-        {"flag": "6/6a/Minecraft_Trails_and_Tales_Art.png","description": "Minecraft"}
+        {"flag": "f/fc/Valorant_logo_-_pink_color_version.svg", "description": "Valorant","description": "My Favorite Game"},
+        {"flag": "8/8d/Subnautica_logo.png","description": "Subnautica","description": "Fun, but time-consuming"},
+        {"flag": "f/fd/Geometry_Dash.svg","description": "Geometry Dash","description": "Better if you have the paid version"},
+        {"flag": "6/6a/Minecraft_Trails_and_Tales_Art.png","description": "Minecraft","description": "Fun with friends, and solo"}
     ];
 
     if (container2) {
